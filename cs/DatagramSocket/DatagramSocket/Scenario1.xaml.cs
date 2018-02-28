@@ -61,7 +61,9 @@ namespace DatagramSocket
 
             CoreApplication.Properties.Remove("serverAddress");
 
+            // サーバソケットの作成
             var listener = new Windows.Networking.Sockets.DatagramSocket();
+            // メッセージを受信したときのハンドラ
             listener.MessageReceived += MessageReceivedAsync;
 
             if (!string.IsNullOrWhiteSpace(InboundBufferSize.Text))

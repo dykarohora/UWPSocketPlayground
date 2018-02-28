@@ -13,7 +13,10 @@ namespace DatagramSocket
 
         private List<Scenario> _scenarios = new List<Scenario>
         {
-            new Scenario() {Title = "Start Datagram Listener", ClassType = typeof(Scenario1)}
+            new Scenario() { Title = "Start Datagram Listener", ClassType = typeof(DatagramSocket.Scenario1) },
+            new Scenario() { Title = "Connect to Listener", ClassType = typeof(DatagramSocket.Scenario2) },
+            new Scenario() { Title = "Send Data", ClassType = typeof(DatagramSocket.Scenario3) },
+            new Scenario() { Title = "Close Socket", ClassType = typeof(DatagramSocket.Scenario4) },
         };
     }
 
