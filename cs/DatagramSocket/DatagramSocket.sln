@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatagramSocket", "DatagramSocket\DatagramSocket.csproj", "{58CD29EA-11C3-4D61-B982-F5D71AC2AC19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamSocketSample", "..\StreamSocketSample\StreamSocketSample.csproj", "{F1D4808B-203F-487F-B878-1DF8E8E1830B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -33,6 +35,24 @@ Global
 		{58CD29EA-11C3-4D61-B982-F5D71AC2AC19}.Release|x86.ActiveCfg = Release|x86
 		{58CD29EA-11C3-4D61-B982-F5D71AC2AC19}.Release|x86.Build.0 = Release|x86
 		{58CD29EA-11C3-4D61-B982-F5D71AC2AC19}.Release|x86.Deploy.0 = Release|x86
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Debug|ARM.Build.0 = Debug|ARM
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Debug|x64.ActiveCfg = Debug|x64
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Debug|x64.Build.0 = Debug|x64
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Debug|x64.Deploy.0 = Debug|x64
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Debug|x86.ActiveCfg = Debug|x86
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Debug|x86.Build.0 = Debug|x86
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Debug|x86.Deploy.0 = Debug|x86
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Release|ARM.ActiveCfg = Release|ARM
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Release|ARM.Build.0 = Release|ARM
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Release|ARM.Deploy.0 = Release|ARM
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Release|x64.ActiveCfg = Release|x64
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Release|x64.Build.0 = Release|x64
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Release|x64.Deploy.0 = Release|x64
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Release|x86.ActiveCfg = Release|x86
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Release|x86.Build.0 = Release|x86
+		{F1D4808B-203F-487F-B878-1DF8E8E1830B}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
